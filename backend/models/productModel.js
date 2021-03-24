@@ -5,14 +5,14 @@ const reviewSchema = mongoose.Schema({
     rating: { type: Number, required: true },
     comment: { type: String, required: true },
 }, {
-    timestamps: true
+    timestamps: true,
 })
 
 const productSchema = mongoose.Schema({
     user: {
         type: mongoose.Schema.Types.ObjectId,
         required: true,
-        ref: 'User'
+        ref: 'User',
     },
     name: {
         type: String,
@@ -20,7 +20,7 @@ const productSchema = mongoose.Schema({
     },
     image: {
         type: String,
-        required: true
+        required: true,
     },
     brand: {
         type: String,

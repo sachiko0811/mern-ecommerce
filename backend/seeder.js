@@ -8,14 +8,12 @@ import Product from './models/productModel.js'
 import Order from './models/orderModel.js'
 import connectDB from './config/db.js'
 
-const mongoose = require('mongoose');
-
-
 dotenv.config()
 connectDB()
 
 const importData = async () => {
     try {
+        // await connectDB();
         await Order.deleteMany()
         await Product.deleteMany()
         await User.deleteMany()

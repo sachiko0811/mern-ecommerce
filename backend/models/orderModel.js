@@ -4,7 +4,7 @@ const orderSchema = mongoose.Schema({
     user: {
         type: mongoose.Schema.Types.ObjectId,
         required: true,
-        ref: 'User'
+        ref: 'User',
     },
     orderItems: [
         {
@@ -15,7 +15,7 @@ const orderSchema = mongoose.Schema({
             product: {
                 type: mongoose.Schema.Types.ObjectId,
                 required: true,
-                ref: 'Product'
+                ref: 'Product',
             },
         }
     ],
@@ -27,7 +27,7 @@ const orderSchema = mongoose.Schema({
     },
     paymentMethod: {
         type: String,
-        required: true
+        required: true,
     },
     paymentResult: {
         id: { type: String },
@@ -56,7 +56,7 @@ const orderSchema = mongoose.Schema({
         default: false,
     },
     paidAt: {
-        type: Date
+        type: Date,
     },
     isDelivered: {
         type: Boolean,
@@ -68,7 +68,7 @@ const orderSchema = mongoose.Schema({
     }
  }, 
     {
-        timestamps: true
+        timestamps: true,
     }
 )
 
