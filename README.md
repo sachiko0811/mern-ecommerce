@@ -2,4 +2,4 @@
 
 Languages:
 
-React, GraphQL
+React, React-Bootstrap
