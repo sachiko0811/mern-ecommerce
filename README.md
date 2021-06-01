@@ -2,4 +2,4 @@
 
 Languages:
 
-React, React-Bootstrap,
+React, Redux, React-Bootstrap
