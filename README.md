@@ -1,5 +1,7 @@
 # mern-ecommerce
 
-Languages:
+**Languages:**
+
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="40" height="40" />
 
 React, Redux, React-Bootstrap
