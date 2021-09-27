@@ -16,6 +16,7 @@ const app = express()
 
 app.get('/', (req, res) => {
     res.send('API is running...')
+    console.log('local 5000?')
 })
 
 app.use('/api/products', productRoutes)
